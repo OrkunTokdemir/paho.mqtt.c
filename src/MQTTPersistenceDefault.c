@@ -254,7 +254,7 @@ int pstremove(void* handle, char* key)
 	FUNC_ENTRY;
 	if (clientDir == NULL)
 	{
-		return rc = MQTTCLIENT_PERSISTENCE_ERROR;
+		rc = MQTTCLIENT_PERSISTENCE_ERROR;
 		goto exit;
 	}
 
